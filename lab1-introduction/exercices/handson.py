@@ -4,7 +4,11 @@
 # If numbers equal [10, 10, 15, 7], the return value should be 10.5
 def avg(numbers):
   # +++your code here+++
-  return
+  sum = 0.0
+  for i in range (len(numbers)):
+    sum = sum + numbers[i]
+  average = sum / len(numbers)
+  return average
 
 # B. both_ends
 # Given a string s, return a string made of the first 2
