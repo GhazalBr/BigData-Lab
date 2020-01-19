@@ -32,6 +32,8 @@ def both_ends(s):
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
   # +++your code here+++
+  if len(a) >= 2 and len(b) >= 2 :
+    print (b[0:2]+a[2:]+" "+a[0:2]+b[2:])
   return
 
 # B. uniq
